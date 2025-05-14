@@ -2,7 +2,7 @@
 
 <img src="rtsp.gif">
 
----
+raspberry code: https://github.com/serkankazak/bot
 
 https://www.youtube.com/watch?v=keApudcHOIo
 
