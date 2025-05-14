@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_grid">
+
+    <fragment
+        android:id="@+id/nav_grid"
+        android:name="com.example.try1.ui.grid.GridFragment"
+        android:label="Grid"
+        tools:layout="@layout/fragment_grid" />
+
+    <fragment
+        android:id="@+id/nav_cam1"
+        android:name="com.example.try1.ui.cam1.Cam1Fragment"
+        android:label="Cam1"
+        tools:layout="@layout/fragment_cam1" />
+
+    <fragment
+        android:id="@+id/nav_cam2"
+        android:name="com.example.try1.ui.cam2.Cam2Fragment"
+        android:label="Cam2"
+        tools:layout="@layout/fragment_cam2" />
+
+    <fragment
+        android:id="@+id/nav_cam3"
+        android:name="com.example.try1.ui.cam3.Cam3Fragment"
+        android:label="Cam3"
+        tools:layout="@layout/fragment_cam3" />
+
+    <fragment
+        android:id="@+id/nav_cam4"
+        android:name="com.example.try1.ui.cam4.Cam4Fragment"
+        android:label="Cam4"
+        tools:layout="@layout/fragment_cam4" />
+
+    <fragment
+        android:id="@+id/nav_cam5"
+        android:name="com.example.try1.ui.cam5.Cam5Fragment"
+        android:label="Cam5"
+        tools:layout="@layout/fragment_cam5" />
+
+</navigation>
